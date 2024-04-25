@@ -22,3 +22,23 @@ echo[$(date)] :- echo is used to show/print the statements on terminal
 * and i faces many isses to execute this files something happens wrong automatically with termianl .
 * and it will be install with -e. in requirements.txt file but in my machine i does not work many be some terminal isses also will there. 
 * Tommarow i will work on data injestion and preprocessing and model building...
+
+
+
+.
+.
+..
+..
+.
+..
+
+..
+.....
+ in the folder of model_training.ipynb
+  here i create a a pipeline and explore it with comment to understand
+  Q.  the main question is arises that why we use fit_transformer for Train data ans why we use only transformer for test data?
+  Ans.. the ans is if we use fit_transformer than it do both fit in training for preprocessing steps,
+     and if call transformer only for test then it only transform the data not fit ,because it is only use to estimate the checking the accuracy extra extra only. if we use fit_transform for the test data then it retraining the data and it will will not good for data and accuracy AND can make the cause of overfitting and bias and low accuracy... thats the main difference between them.
+  NOW I AM COMMIT THIS training_model
+
+  
