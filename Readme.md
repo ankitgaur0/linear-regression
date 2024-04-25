@@ -34,6 +34,7 @@ echo[$(date)] :- echo is used to show/print the statements on terminal
 
 ..
 .....
+#model_training files works and how it was created
  in the folder of model_training.ipynb
   here i create a a pipeline and explore it with comment to understand
   Q.  the main question is arises that why we use fit_transformer for Train data ans why we use only transformer for test data?
@@ -41,4 +42,4 @@ echo[$(date)] :- echo is used to show/print the statements on terminal
      and if call transformer only for test then it only transform the data not fit ,because it is only use to estimate the checking the accuracy extra extra only. if we use fit_transform for the test data then it retraining the data and it will will not good for data and accuracy AND can make the cause of overfitting and bias and low accuracy... thats the main difference between them.
   NOW I AM COMMIT THIS training_model
 
-  
+
