@@ -1,7 +1,7 @@
 echo[$(date)]:"Start"
 echo[$(date)]:"first we have to create the conda environment"
 
-conda create --prefix ./env python==3.11 -y
+conda create --prefix ./env python==3.9 -y
 
 echo[$(date)] : "now we hace to activate the environment"
 source activate ./env

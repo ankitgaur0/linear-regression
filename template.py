@@ -3,7 +3,7 @@ from pathlib import Path
 
 import logging
 
-package_name="diamond price prediction"
+package_name="diamondpriceprediction"
 
 list_of_files=[
     "github/workflows/.gitkeep",
